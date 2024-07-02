@@ -2,8 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
-
-body {
+body{   
     display: flex;
     flex-direction: column;
     font-family: 'Press Start 2P', cursive;
@@ -23,6 +22,12 @@ nav {
     font-size: 15px;
 }
 
+nav .infos{
+    display: flex;
+    justify-content: center;
+    
+}
+
 ul {
     display: flex;
     justify-content: center;
@@ -31,21 +36,31 @@ ul {
     margin-right: 350px;
     text-shadow: 0px 0px 5px red;
     cursor: pointer;
+    
 }
 
 ul li {
     display: inline-block;
+   
     text-align: center;
+    font-size: 15px;
+    border-right: 2px solid white;
+    padding: 0px 30px ;
+}
+
+ul li:hover{
+    text-shadow: 0px 0px 5px white;
 }
 
 button {
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    padding: 35px 40px;
+    font-size: 15px;
+    padding: 5px 5x;
+    width: 250px;
     border-radius: 55px;
     border: 2px solid red;
     background-color: transparent;
-    color: red;
+    color: white;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
@@ -65,8 +80,7 @@ header {
     box-shadow: 0 0 50px red;
 
 }
-
-.logo {
+.logo{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -98,7 +112,7 @@ header {
     font-size: 30px;
 }
 
-.logo-texto {
+.logo-texto{
     display: flex;
     flex-direction: column;
     line-height: 30px;
@@ -134,3 +148,59 @@ footer {
     background-color: black;
     height: 40px;
 }
+::-webkit-scrollbar{
+    width: 15px;
+    height: 35px;
+}
+  
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+  
+::-webkit-scrollbar-thumb:hover{
+    background: red;
+}
+
+.descricao{
+    display: flex;
+    padding: 20px 40px; 
+    
+
+    
+}
+.jogos img{
+    display: flex;
+    margin: auto;
+    padding: 15px 35px;
+    width: 200px;
+    height: 190px;
+    border-radius: 60px;
+    
+
+}
+
+p{
+    text-align: center;
+    gap: 5px;
+    text-shadow: 5px 5px 5px red;
+}
+
+footer{
+    background-color: black;
+    padding: 5px 10px;
+}
+
+footer p{
+    color: white;
+}
+
+    
+
+

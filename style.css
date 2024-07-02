@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -8,21 +8,27 @@ body{
     font-family: 'Press Start 2P', cursive;
 }
 
-.wrapper-header{
-box-shadow: 0 5px 5px -5px red;
-padding-bottom: 25px;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
+.wrapper-header {
+    box-shadow: 0 5px 5px -5px red;
+    padding-bottom: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     font-size: 15px;
 }
 
-ul{
+nav .infos{
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,32 +36,42 @@ ul{
     margin-right: 350px;
     text-shadow: 0px 0px 5px red;
     cursor: pointer;
+    
 }
 
-ul li{
+ul li {
     display: inline-block;
+   
     text-align: center;
+    font-size: 15px;
+    border-right: 2px solid white;
+    padding: 0px 30px ;
 }
 
-button{
+ul li:hover{
+    text-shadow: 0px 0px 5px white;
+}
+
+button {
     font-family: 'Press Start 2P', cursive;
-    font-size: 10px;
-    padding: 35px 40px;
+    font-size: 15px;
+    padding: 5px 5x;
+    width: 250px;
     border-radius: 55px;
     border: 2px solid red;
     background-color: transparent;
-    color: red;
+    color: white;
     cursor: pointer;
     transition: all 0.5s ease-in-out;
 }
 
-button:hover{
+button:hover {
     box-shadow: 0 0 15px red;
-                inset: 0 0 15 red;
+    inset: 0 0 15 red;
     text-shadow: 0 0 15px red;
 }
 
-header{
+header {
     background-color: black;
     color: white;
     padding: 60px 30px;
@@ -72,25 +88,25 @@ header{
     align-items: center;
 }
 
-.logo img{
-    width: 70px; 
+.logo img {
+    width: 70px;
     box-shadow: 0px 0px 20px red;
     border-radius: 50%;
 }
 
-.logo p{
+.logo p {
     color: red;
     font-size: 40px;
     font-weight: 700;
     padding: 6px;
 }
 
-.logo p:hover{
+.logo p:hover {
     font-size: 45px;
     text-shadow: 2px 2px 5px black;
 }
 
-.logo h1{
+.logo h1 {
     text-shadow: 0px 0px 10px red;
     color: white;
     font-size: 30px;
@@ -102,25 +118,25 @@ header{
     line-height: 30px;
 }
 
-main{
+main {
     background-color: black;
     color: white;
     height: 100vh;
 }
 
-.logo-fundo{
+.logo-fundo {
     display: flex;
     justify-content: center;
     gap: 40px;
 }
 
-section #catalogo{
+section #catalogo {
     max-width: 1200px;
     margin: auto;
-    
+
 }
 
-.logo-fundo img{
+.logo-fundo img {
     display: flex;
     border-radius: 50%;
     height: 80px;
@@ -128,7 +144,63 @@ section #catalogo{
     padding: 5px;
 }
 
-footer{
+footer {
     background-color: black;
     height: 40px;
 }
+::-webkit-scrollbar{
+    width: 15px;
+    height: 35px;
+}
+  
+::-webkit-scrollbar-track{
+    background: white;
+    border-radius: 5px;
+}
+  
+::-webkit-scrollbar-thumb{
+    background: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+  
+::-webkit-scrollbar-thumb:hover{
+    background: red;
+}
+
+.descricao{
+    display: flex;
+    padding: 20px 40px; 
+    
+
+    
+}
+.jogos img{
+    display: flex;
+    margin: auto;
+    padding: 15px 35px;
+    width: 200px;
+    height: 190px;
+    border-radius: 60px;
+    
+
+}
+
+p{
+    text-align: center;
+    gap: 5px;
+    text-shadow: 5px 5px 5px red;
+}
+
+footer{
+    background-color: black;
+    padding: 5px 10px;
+}
+
+footer p{
+    color: white;
+}
+
+    
+
+

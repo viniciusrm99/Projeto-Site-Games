@@ -45,7 +45,6 @@ ul {
 
 ul li {
     display: inline-block;
-
     text-align: center;
     font-size: 15px;
     border-right: 2px solid white;
@@ -208,6 +207,8 @@ a {
 #sobrenos {
     height: 800px;
     text-align: center;
+    padding: 20px 40px;
+    line-height: 30px;
 }
 
 footer {

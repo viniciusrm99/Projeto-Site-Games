@@ -189,9 +189,11 @@ footer {
     width: 1000px;
     height: 450px;
     border-radius: 60px;
-    
+}   
 
 
+p{
+    text-shadow: 0px 2px red;
 }
 
 a {
@@ -207,6 +209,30 @@ a {
 
 #sobrenos {
     height: 800px;
+    text-align: center;
+    padding: 20px 40px;
+    text-shadow: 0px 1px white ;
+    line-height: 30px;
+}
+
+#forca{
+    text-align: center;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+#descricao h1{
+    padding: 20px 35px;
+    text-shadow: 0px 3px red;
+}    
+
+#descricao{
+    text-align: center;
+    padding: 20px 40px;
+    line-height: 30px;
+}
+
+#quiz{
     text-align: center;
     padding: 20px 40px;
     line-height: 30px;

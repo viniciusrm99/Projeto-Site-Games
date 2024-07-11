@@ -149,6 +149,10 @@ section #catalogo {
     padding: 5px;
 }
 
+.logo-fundo img:hover {
+    transform: scale(1.3); 
+}
+
 footer {
     background-color: black;
     height: 40px;

@@ -11,7 +11,7 @@ body {
     font-size: 30px;
 }
 
-main.end {
+.end {
     filter: blur(8px);
     -webkit-filter: blur(8px);
 }
